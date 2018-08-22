@@ -4,7 +4,7 @@ I created 3 verions, each with added search features, to compare the effectivene
 
 Version 1: Simple backtracking search
 
-Version 2: Added forward Checking
+Version 2: Added forward Checking (maintining arc consistency)
 
 Version 3: Added ordering and filtering
 
@@ -18,7 +18,7 @@ Constraints:
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;∀i,j,k|i=k∨X_(i,j)≠X_(k,j)" title="l4" />
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;∀n∈{0,1,2},i,j|(i=⌊(i-1)/3⌋3+n∧j=⌊(j-1)/3⌋3+n)∨X_(i,j)≠ X_(⌊(i-1)/3⌋3+n,⌊(j-1)/3⌋3+n)" title="l4" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;∀n∈{0,1,2},i,j|(i=⌊(i-1)/3⌋3+n∧j=⌊(j-1)/3⌋3+n)∨X_(i,j)≠X_(⌊(i-1)/3⌋3+n,⌊(j-1)/3⌋3+n)" title="l4" />
 
 
 ![versionComparison](/graphic.png)
